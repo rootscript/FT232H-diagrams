@@ -19,6 +19,7 @@ The FT232H board has GPIO, SPI, and I2C connections, and I will be documenting m
 ####Other useful components (that are often overlooked, but needed by beginners):
 - Connect to `74AHCT125N` Quad Level-Shifter. (completed, but still need to document & create diagrams/photos).
 - Connect to `4.7K Ohm 1/4 Watt Resistor`. (completed, but still need to document & create diagrams/photos).
+- MQTT API Python IO. (planned) aiming to setup web based widgets (Color pickers etc...) to control devices.
 
 I am aiming to get a full list of devices connected to the FT232H, and would like to document how to achieve that, so that people who are new to this subject area will have a starting point with many example to compare.
 Having more that one example is vital, as it is only through comparison that new people will be able to start to understand, and be more comfortable experimenting with other new devices.
