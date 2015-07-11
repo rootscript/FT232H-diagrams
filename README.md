@@ -13,7 +13,7 @@ I2C:
 [to Control PWM, servos, etc...]
 - Connect to `DRV2605L` via `I2C` (planned).
 [Haptic Motor driver]
-- Connect to `TB6612` via `PWM` (Need to connect to `PCA9685` board first to get `PWM` to control the `TB6612`)
+- Connect to `TB6612` via `PWM` (planned, need to connect to `PCA9685` board first to get `PWM` to control the `TB6612`)
 [to Control stepper motors]
 
 Other useful components (that are often overlooked, but needed by beginners):
