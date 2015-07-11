@@ -30,3 +30,6 @@ Having more that one example is vital, as it is only through comparison that new
 ## Related written documents:
 {% gist 6e69c1366a2af550b577 %}
 {% gist 6e69c1366a2af550b577 pca9685-md %}
+
+## Example Diagrams:
+![Image](/_readyForEmbedding/FT232H-pullup-resistor-01%5B728x569%5D.jpg?raw=true)
