@@ -4,8 +4,10 @@ Just some working diagrams to help with setting up circuits etc...
 I'm using the FT232H board with Mac OS X 10.10.4 and the system version of Python which is Python 2.7.6.
 
 The FT232H board has GPIO, SPI, and I2C connections, and I will be documenting my attempts to connect to these types of devices.
+
 SPI:
 - Connect to `NeoPixels` via `SPI` (completed, but still need to document & create diagrams/photos).
+
 I2C:
 - Connect to `PCA9685` via `I2C` (in progress).
 [to Control PWM, servos, etc...]
@@ -13,6 +15,7 @@ I2C:
 [Haptic Motor driver]
 - Connect to `TB6612` via `PWM` (Need to connect to `PCA9685` board first to get `PWM` to control the `TB6612`)
 [to Control stepper motors]
+
 Other useful components (that are often overlooked, but needed by beginners):
 - Connect to `74AHCT125N` Quad Level-Shifter. (completed, but still need to document & create diagrams/photos).
 - Connect to `4.7K Ohm 1/4 Watt Resistor`. (completed, but still need to document & create diagrams/photos).
