@@ -25,7 +25,9 @@ I am aiming to get a full list of devices connected to the FT232H, and would lik
 Having more that one example is vital, as it is only through comparison that new people will be able to start to understand, and be more comfortable experimenting with other new devices.
 
 ## Example Diagrams:
-![Image](/_readyForEmbedding/FT232H-pullup-resistor-01-1280x1000.jpg?raw=true)
+![Image](_readyForEmbedding/FT232H-pullup-resistor-01-1280x1000.jpg?raw=true)
+![Image](_readyForEmbedding/FT232H-NeoPixel-74AHCT125-1200x1000.jpg?raw=true)
+
 
 ## Related written documents:
 {% gist 6e69c1366a2af550b577 %}
