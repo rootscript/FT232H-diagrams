@@ -25,16 +25,16 @@ Having more that one example is vital, as it is only through comparison that new
 
 ## Example Diagrams:
 ![Image](_readyForEmbedding/FT232H-pullup-resistor-01-1280x1000.jpg?raw=true)
-Pull-up resistors for I2C devices
+Pull-up resistors for I2C devices.
 
 ![Image](_readyForEmbedding/FT232H-NeoPixel-74AHCT125-1200x1000.jpg?raw=true)
-NeoPixel ring using 74AHCT125 Level Shifter
+NeoPixel ring using 74AHCT125 Level Shifter.
 
 ![Image](_readyForEmbedding/FT232H-PCA9685-1200x1000.jpg?raw=true)
-PCA9685 PWM Driver
+PCA9685 PWM Driver.
 
 ## Other related tasks:
-- MQTT API Python IO. (planned) aiming to setup web based widgets (Color pickers, locations on Google maps etc...) to control/monitor devices.
+- MQTT API Python IO. (planned) aiming to setup web based widgets (Color pickers, locations on Google maps etc, Servo dials...) to control/monitor devices.
 
 ## Related written documents:
 {% gist 6e69c1366a2af550b577 %}
