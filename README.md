@@ -11,7 +11,7 @@ The FT232H board has GPIO, SPI, and I2C connections, and I will be documenting m
 ####I2C:
 - Connect to `PCA9685` via `I2C` (DONE).
 [to Control PWM, servos, etc...]
-- Connect to `DRV2605L` via `I2C` (planned).
+- Connect to `DRV2605L` via `I2C` (planned, next).
 [Haptic Motor driver]
 - Connect to `TB6612` via `PWM` (planned, need to connect to `PCA9685` board first to get `PWM` to control the `TB6612`)
 [to Control stepper motors]
