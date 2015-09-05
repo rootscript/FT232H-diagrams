@@ -1,5 +1,4 @@
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/rootscript/FT232H-diagrams?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 # FT232H-diagrams.
 Some working diagrams to help with setting up circuits with the FT232H breakout board.  I've read so any tutorials that would greatly benefit from some clear diagrams with some concise notes (Similar to 'Quick Setup Guides & revision cards etc... A picture speaks a thousand words).
 
