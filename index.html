@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Ft232h-diagrams by rootscript</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Ft232h-diagrams</h1>
+        <p>Just some working diagrams to help with setting up circuits etc...</p>
+        <p class="view"><a href="https://github.com/rootscript/FT232H-diagrams">View the Project on GitHub <small>rootscript/FT232H-diagrams</small></a></p>
+        <ul>
+          <li><a href="https://github.com/rootscript/FT232H-diagrams/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/rootscript/FT232H-diagrams/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/rootscript/FT232H-diagrams">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="ft232h-diagrams" class="anchor" href="#ft232h-diagrams" aria-hidden="true"><span class="octicon octicon-link"></span></a>FT232H-diagrams.</h1>
+
+<p>Some working diagrams to help with setting up circuits with the FT232H breakout board.  I've read so any tutorials that would greatly benefit from some clear diagrams with some concise notes (Similar to 'Quick Setup Guides &amp; revision cards etc... A picture speaks a thousand words).</p>
+
+<p>I'm using the FT232H board with Mac OS X 10.10.4 and the system version of Python which is Python 2.7.6.</p>
+
+<p>The FT232H board has GPIO, SPI, and I2C connections, and I will be documenting my attempts to connect to these types of devices.</p>
+
+<h4>
+<a id="spi" class="anchor" href="#spi" aria-hidden="true"><span class="octicon octicon-link"></span></a>SPI:</h4>
+
+<ul>
+<li>Connect to <code>NeoPixels</code> via <code>SPI</code> (DONE, but still need to document &amp; create <del>diagrams</del>/photos).</li>
+</ul>
+
+<h4>
+<a id="i2c" class="anchor" href="#i2c" aria-hidden="true"><span class="octicon octicon-link"></span></a>I2C:</h4>
+
+<ul>
+<li>Connect to <code>PCA9685</code> via <code>I2C</code> (DONE).
+[to Control PWM, servos, etc...]</li>
+<li>Connect to <code>DRV2605L</code> via <code>I2C</code> (planned, next).
+[Haptic Motor driver]</li>
+<li>Connect to <code>TB6612</code> via <code>PWM</code> (planned, need to connect to <code>PCA9685</code> board first to get <code>PWM</code> to control the <code>TB6612</code>)
+[to Control stepper motors]</li>
+</ul>
+
+<h4>
+<a id="other-useful-components-that-are-often-overlooked-but-needed-by-beginners" class="anchor" href="#other-useful-components-that-are-often-overlooked-but-needed-by-beginners" aria-hidden="true"><span class="octicon octicon-link"></span></a>Other useful components (that are often overlooked, but needed by beginners):</h4>
+
+<ul>
+<li>Connect to <code>74AHCT125N</code> Quad Level-Shifter. (DONE, but still need to document &amp; create <del>diagrams</del>/photos).</li>
+<li>Connect to <code>4.7K Ohm 1/4 Watt Resistor</code>. (DONE, but still need to document &amp; create <del>diagrams</del>/photos).</li>
+</ul>
+
+<p>I am aiming to get a full list of devices connected to the FT232H, and would like to document how to achieve that, so that people who are new to this subject area will have a starting point with many example to compare.
+Having more that one example is vital, as it is only through comparison that new people will be able to start to understand, and be more comfortable experimenting with other new devices.</p>
+
+<h2>
+<a id="example-diagrams" class="anchor" href="#example-diagrams" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example Diagrams:</h2>
+
+<p><img src="https://github.com/rootscript/FT232H-diagrams/raw/master/_readyForEmbedding/FT232H-pullup-resistor-01-1280x1000.jpg?raw=true?raw=true" alt="Image">
+Pull-up resistors for I2C devices.</p>
+
+<p><img src="_readyForEmbedding/FT232H-NeoPixel-74AHCT125-01-1200x1000.jpg?raw=true" alt="Image">
+NeoPixel ring using 74AHCT125 Level Shifter.</p>
+
+<p><img src="_readyForEmbedding/FT232H-PCA9685-01-1200x1000.jpg?raw=true" alt="Image">
+PCA9685 PWM Driver.</p>
+
+<h2>
+<a id="other-related-tasks" class="anchor" href="#other-related-tasks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Other related tasks:</h2>
+
+<ul>
+<li>MQTT API Python IO. (planned) aiming to setup web based widgets (Color pickers, locations on Google maps etc, Servo dials...) to control/monitor devices.</li>
+</ul>
+
+<h2>
+<a id="related-written-documents" class="anchor" href="#related-written-documents" aria-hidden="true"><span class="octicon octicon-link"></span></a>Related written documents:</h2>
+
+<p>{% gist 6e69c1366a2af550b577 %}
+{% gist 6e69c1366a2af550b577 pca9685-md %}</p>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/rootscript">rootscript</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
